@@ -25,7 +25,7 @@ import org.jetbrains.annotations.Nullable;
 public final class SChatAPIExample extends JavaPlugin {
 
     public static final String MESSAGE = "message";
-    private static final String BOT_NAME = "Хавиронг";
+    private static final String BOT_NAME = "Havirong";
 
     private SChatAPI api;
     private PseudoPlayer bot;
