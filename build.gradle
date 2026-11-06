@@ -98,10 +98,4 @@ tasks.named("runServer") {
     dependsOn(downloadCanvas)
     minecraftVersion(canvasServerVersion)
     serverJar(canvasServerJar)
-
-    pluginJars(file("libs/PlaceholderAPI-${papi_version}.jar"))
-    downloadPlugins {
-        modrinth("luckperms", "${luckperms_plugin_version}")
-        modrinth("skinsrestorer", "${skinsrestorer_plugin_version}")
-    }
 }
