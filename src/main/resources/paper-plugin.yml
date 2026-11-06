@@ -1,0 +1,14 @@
+name: SChatAPIExample
+version: '${version}'
+main: com.unfamoussoul.schatapiexample.SChatAPIExample
+api-version: '26.3'
+authors: [ UnFamousSoul ]
+description: Пример плагина, использующего API плагина SChat
+website: https://github.com/UnFamousSoul
+folia-supported: true
+
+dependencies:
+  server:
+    SChat:
+      load: BEFORE
+      required: false
