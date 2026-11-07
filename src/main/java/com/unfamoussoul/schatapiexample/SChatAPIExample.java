@@ -84,7 +84,7 @@ public final class SChatAPIExample extends JavaPlugin {
                                     .executes(c -> {
                                         if (api == null || bot == null) return 0;
 
-                                        if (!(c instanceof Player player)) return 0;
+                                        if (!(c.getSource().getSender() instanceof Player player)) return 0;
 
                                         Location location = player.getLocation();
                                         bot.setLocation(new Location(location.getWorld(), 0, location.getBlockY(), 0));
