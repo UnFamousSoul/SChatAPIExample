@@ -9,7 +9,7 @@ import org.bukkit.event.Listener;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * Отвечает на личные сообщения, адресованные боту {@code Havirong}.
+ * Отвечает на личные сообщения, адресованные боту {@code Хавиронг}.
  */
 public record PseudoPlayerListener(SChatAPIExample plugin) implements Listener {
 
